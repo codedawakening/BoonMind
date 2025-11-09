@@ -1,19 +1,19 @@
-License
-This work is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
-You are free to:
+## Licensing
 
-Share — copy and redistribute the material in any medium or format
-Adapt — remix, transform, and build upon the material for any purpose, even commercially.
+The material published here constitutes a **research abstract, not open-source software**.
 
-Under the following terms:
+All rights reserved by the author, except for citation and academic discussion.  
+No permission is granted for reproduction of algorithms, derivative implementations, or commercial usage without explicit authorization.
 
-Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
-No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+---
 
-For full details, see creativecommons.org/licenses/by/4.0.
-This license encourages open collaboration and replication, aligning with the paper's invitation for critique and extension.
-Disclaimer
-This document presents preliminary theoretical work. All empirical references describe internal exploratory runs, not benchmarked or peer-reviewed studies. The author invites formal collaboration, critique, and replication attempts from independent researchers.
-Copyright © 2025 Carl Boon
-“Empirically grounded. Conceptually provocative.
-Mathematics evolves when it observes itself.”
+## Contact
+
+For collaboration, review access, or institutional inquiry:
+
+📩 Refer to GitHub profile contact  
+📌 Or open a repository issue marked “RHC Access Request”
+
+---
+
+*This document establishes priority, invites collaboration, and communicates research intent without disclosing protected intellectual implementations.*
