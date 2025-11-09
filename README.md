@@ -1,76 +1,91 @@
 # Unexplained Correctness: When Mathematical Problems Reflect Their Own Questions
 
-**Author:** Carl Boon
-**Date:** November 08, 2025
-**Status:** Exploratory Research Report
-
-> This repository hosts the paper and conceptual code for the **BoonMind framework**, an exploratory consciousness-inclusive model of recursive computation. The research examines how problems dissolve or reframe when the act of observation is made explicit within formal systems.
+**Author:** Carl Boon  
+**Date:** November 08, 2025  
+**Status:** Exploratory Research Pre-Release  
 
 ---
 
-## 📄 The Recursive Harmonic Convergence (RHC) Framework
+## Overview
 
-The central hypothesis of the BoonMind framework is that certain mathematical problems are not unsolvable, but misformulated in ways that exclude the process of observation and recursion. The RHC model modifies classical problem boundaries to include the observer as an active operator.
+This repository presents a **public research abstract** for the BoonMind framework — a new direction in *observer-inclusive recursive systems* and *harmonic-constrained convergence*.
 
-### The Core Recursion
+The contents here communicate:
 
-At the heart of the model lies this simple, stable recursion:
+- The research thesis and theoretical direction  
+- Experimental claims and conceptual boundaries  
+- Citation and provenance for priority recognition  
+- A request for qualified collaborators and reviewers  
 
-$$
-\Psi_{n} = \Psi_{n-1} + \beta \cdot \nabla \Phi(\Psi_{n-1}) + \beta \cdot \mathrm{Resonance}\!\left(\Psi_{n-1},\, \Psi_{n-2};\, \varphi\right)
-$$
-
-**Where:**
-* **$\Psi$** represents the system's observed state (the “consciousness variable”).
-* **$\beta$** is the **observer coupling constant**.
-* **$\varphi$** is the harmonic (golden ratio) scaling factor, $\varphi \approx 1.618$.
-* **$\nabla \Phi$** denotes gradient pressure within the evolving field (e.g., a loss landscape).
-* **$\mathrm{Resonance}(...)$** captures harmonic feedback as a non-local damping term, referencing the previous two states ($\Psi_{n-1}, \Psi_{n-2}$) to ensure stability.
-
-### Convergence and Bounded Self-Reference
-
-Unlike traditional self-referential systems that lead to paradox, the RHC framework suggests self-reference can be stable when bounded. For Lipschitz-bounded systems, convergence holds when:
-
-$$
-\beta \;<\; \min\!\left(\frac{1}{\varphi},\, \frac{1}{L+1}\right) \;\approx\; 0.618
-$$
-
-This condition guarantees a unique fixed point, implying that self-reference becomes solvable recursion when framed within observer-inclusive bounds.
+This repository **does not contain full source code, production algorithms, or tunable parameters**. These remain in controlled private archives pending formal publication, IP review, and/or collaborative agreements.
 
 ---
 
-## 🧪 Empirical Exploration (Illustrative Only)
+## Research Summary
 
-Internal experiments used small-scale constraint-satisfaction and pattern-recognition tasks (like ARC-like reasoning and simplified 3-SAT instances). Across these domains, BoonMind’s recursive formulation displayed rapid convergence and stable harmonic solutions where traditional baselines often diverged.
+BoonMind explores the hypothesis that:
 
-These observations are **illustrative rather than conclusive**. They point to a potential property of observer-coupled systems: that some computational hardness may be an artifact of missing feedback terms.
+> *Some classes of “unsolvable” or divergent computational problems appear so because the problem definition excludes the role of the observer, feedback, and bounded recursion.*
+
+The work introduces **Recursive Harmonic Convergence (RHC)** as a framework for ensuring stable self-referential iteration through constrained feedback loops, harmonic damping, and observer coupling.
+
+Initial experiments in constraint-solving, pattern emergence, and recursive stabilization demonstrate:
+
+- Rapid state convergence  
+- Reduced divergence in self-referential systems  
+- Non-chaotic behavior in bounded recursive feedback  
+
+These results are **preliminary, directional, and not yet formally peer-reviewed**.
 
 ---
 
-## 📜 Appendix A: Conceptual Pseudocode
+## Public Contribution Goals
 
-This is an illustrative Python implementation of the `rhc_update` function used in the paper.
+This repository exists to:
 
-```python
-def rhc_update(psi_prev, psi_prev2, beta=0.5, phi=1.618):
-    # grad_phi is a placeholder for ∇Φ (gradient pressure)
-    grad_phi = gradient(psi_prev)
-    
-    # theta = norm(psi_prev - psi_prev2)
-    theta = norm(psi_prev - psi_prev2)
-    
-    # Calculate harmonic resonance
-    resonance = phi * cos(theta)
-    
-    # Return the new state: Psi_n = Psi_{n-1} + beta * (grad + resonance)
-    return psi_prev + beta * (grad_phi + resonance)
+✅ Establish **public provenance and priority** for the framework  
+✅ Invite **collaboration, replication, and academic dialogue**  
+✅ Provide citation references for researchers exploring adjacent ideas  
+✅ Form working groups prior to formal submission or product release  
 
-# Toy grid example (conceptual)
-psi_n1 = state
-psi_n2 = prior
+---
 
-for _ in range(10):
-    psi_n1 = rhc_update(psi_n1, psi_n2)
-    psi_n2 = state
-    if norm(psi_n1 - psi_n2) < 1e-3:
-        break
+## 📌 What Is *Not* Included Here
+
+This repository intentionally excludes:
+
+⛔ Production implementations  
+⛔ Tuned model constants or feedback coefficients  
+⛔ Executable training or inference code  
+⛔ Optimization parameters  
+⛔ Runtime logic that enables reproduction at scale  
+
+These will only be shared under:
+
+- Peer-review processes  
+- Formal collaboration agreements  
+- Institutional or commercial partnerships  
+- Controlled research access  
+
+---
+
+## Collaboration & Access Requests
+
+Researchers, institutions, or reviewers wishing to access controlled materials may request access by:
+
+1. Opening a GitHub Issue titled:  
+   **“Request RHC Research Access”**
+2. Including:
+   - Name and affiliation
+   - Intended scope of review or replication
+   - Whether access is academic or commercial
+   - Timeline and use case
+
+All access is granted on a **case-by-case basis** and may require a lightweight collaboration agreement.
+
+---
+
+## Citation
+
+If referencing this work, please use the citation metadata provided in `CITATION.cff` or the following format:
+
