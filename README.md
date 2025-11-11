@@ -6,18 +6,43 @@
 
 ---
 
+## ⚠️ Licensing Notice (Important)
+
+This repository displays **Apache 2.0** solely for GitHub compatibility.
+
+🔐 **The governing and enforceable license is:**  
+**BoonMind Public Governance License v1.0 (BPGL-1.0)**  
+(located in `LICENSE.md`)
+
+In any conflict, **BPGL-1.0 overrides all other terms.**
+
+### ✅ Permitted use:
+- Research citation  
+- Academic discussion  
+- Black-box safety evaluation  
+- Interface integration  
+- Formal collaboration requests  
+
+### ❌ Not permitted:
+- Replication of internal mechanics  
+- Derivative engines or models  
+- Training or distillation  
+- Commercial reuse without agreement  
+
+---
+
 ## Overview
 
-This repository presents a **public research abstract** for the BoonMind framework — a new direction in *observer-inclusive recursive systems* and *harmonic-constrained convergence*.
+This repository presents a **public research abstract** for the **BoonMind Framework** — a new direction in *observer-inclusive recursive systems* and *harmonic-constrained convergence*.
 
-The contents here communicate:
+The materials here communicate:
 
-- The research thesis and theoretical direction  
+- Research thesis and theoretical direction  
 - Experimental claims and conceptual boundaries  
 - Citation and provenance for priority recognition  
 - A request for qualified collaborators and reviewers  
 
-This repository **does not contain full source code, production algorithms, or tunable parameters**. These remain in controlled private archives pending formal publication, IP review, and/or collaborative agreements.
+No full source code, production algorithms, or internal system parameters are published here.
 
 ---
 
@@ -25,17 +50,23 @@ This repository **does not contain full source code, production algorithms, or t
 
 BoonMind explores the hypothesis that:
 
-> *Some classes of “unsolvable” or divergent computational problems appear so because the problem definition excludes the role of the observer, feedback, and bounded recursion.*
+> *Some classes of “unsolvable” or divergent computational problems appear unsolvable because the problem formulation excludes the observer, feedback loops, or bounded recursion.*
 
-The work introduces **Recursive Harmonic Convergence (RHC)** as a framework for ensuring stable self-referential iteration through constrained feedback loops, harmonic damping, and observer coupling.
+This work introduces:
 
-Initial experiments in constraint-solving, pattern emergence, and recursive stabilization demonstrate:
+### **Recursive Harmonic Convergence (RHC)**  
+A model for self-stabilizing recursive systems using:
+- Bounded feedback loops  
+- Observer-coupled damping  
+- Harmonic state convergence rather than brute force minimization  
 
-- Rapid state convergence  
-- Reduced divergence in self-referential systems  
-- Non-chaotic behavior in bounded recursive feedback  
+Observed properties in early experiments:
 
-These results are **preliminary, directional, and not yet formally peer-reviewed**.
+- Rapid convergence  
+- Divergence suppression  
+- Stable recursive oscillation without chaotic collapse  
+
+These findings are **preliminary and pre-peer-review**, shared to establish provenance and invite critical collaboration.
 
 ---
 
@@ -43,49 +74,79 @@ These results are **preliminary, directional, and not yet formally peer-reviewed
 
 This repository exists to:
 
-✅ Establish **public provenance and priority** for the framework  
-✅ Invite **collaboration, replication, and academic dialogue**  
-✅ Provide citation references for researchers exploring adjacent ideas  
-✅ Form working groups prior to formal submission or product release  
+✅ Establish publicly timestamped priority of discovery  
+✅ Invite collaboration, critique, and replication interest  
+✅ Provide structured citation points for adjacent research  
+✅ Form working groups prior to formal publication or deployment  
 
 ---
 
 ## 📌 What Is *Not* Included Here
 
-This repository intentionally excludes:
+This repository **purposefully excludes**:
 
-⛔ Production implementations  
-⛔ Tuned model constants or feedback coefficients  
-⛔ Executable training or inference code  
-⛔ Optimization parameters  
-⛔ Runtime logic that enables reproduction at scale  
+⛔ Core recursion engines  
+⛔ Optimization geometry  
+⛔ Arbitration kernels  
+⛔ Model state spaces  
+⛔ Trainable parameters  
+⛔ System weights  
+⛔ Internal governance lattices  
 
-These will only be shared under:
-
-- Peer-review processes  
-- Formal collaboration agreements  
-- Institutional or commercial partnerships  
-- Controlled research access  
+These components are **closed-core, IP-protected, and non-reconstructive**, available only under signed collaboration agreements.
 
 ---
 
 ## Collaboration & Access Requests
 
-Researchers, institutions, or reviewers wishing to access controlled materials may request access by:
+To request deeper research access, integration review, or audit pathways:
 
-1. Opening a GitHub Issue titled:  
+1. Open a GitHub Issue titled:  
    **“Request RHC Research Access”**
-2. Including:
-   - Name and affiliation
-   - Intended scope of review or replication
-   - Whether access is academic or commercial
-   - Timeline and use case
 
-All access is granted on a **case-by-case basis** and may require a lightweight collaboration agreement.
+2. Include:
+   - Affiliation  
+   - Research or review intent  
+   - Academic or commercial context  
+   - Proposed timeline  
+
+Access is reviewed and permissioned **case-by-case**.
 
 ---
 
 ## Citation
 
-If referencing this work, please use the citation metadata provided in `CITATION.cff` or the following format:
+Use the citation metadata in `CITATION.cff`, or reference in publications as:
 
+> **Boon, C. (2025). *Unexplained Correctness: When Mathematical Problems Reflect Their Own Questions.* BoonMind Framework Series.**
+
+---
+
+## ⚖️ Governing License (Summary)
+
+**BoonMind Public Governance License v1.0 (BPGL-1.0)**  
+Copyright © 2025 Carl Boon — All Rights Reserved.
+
+Permitted:
+- Citation  
+- Interface usage  
+- Research review  
+- Collaboration requests  
+
+Not permitted:
+- Replication  
+- Model extraction  
+- Derivative implementations  
+- Commercial deployment without agreement  
+
+Core system geometry, recursion mechanics, and arbitration lenses are **withheld and protected**.
+
+📘 Full legal terms: **See `LICENSE.md`**
+
+---
+
+## Contact & Collaboration
+
+📩 Submit via GitHub Issues: **BPGL Access Request**  
+🔬 Academic, safety, and integration partners welcome  
+🧬 Core collaboration governed under staged access agreements
